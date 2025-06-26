@@ -46,7 +46,7 @@ function showToast(message) {
 
 const toast = document.getElementById("toast")
 
-toast.classList.add=("show")
+toast.classList.add("show")
 
 setTimeout(() => {
  toast.classList.remove("show");
